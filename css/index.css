@@ -1,0 +1,108 @@
+body{
+	background-color:#F9F9F9;
+}
+
+h1 {
+	color:#430541;
+	font-family:'Berkshire Swash', Helvetica, sans-serif;
+	font-size:100px;
+	font-weight:bold;
+	text-shadow: 1px 1px 0px #ededed, 4px 4px 0px rgba(0,0,0,0.15);
+	margin: 40px 0 40px 0;
+
+}
+
+#title{
+	width:auto;
+	text-align:center;
+}
+
+#email-button{
+	font-size:48px;
+	font-family: 'Great vibes', Helvetica, sans-serif;
+	color:#cdcdcd;
+	cursor:pointer;
+	padding-bottom:5px;
+}
+
+#email-button:hover{
+	text-decoration:underline;
+}
+
+#email{
+	width:auto;
+	text-align:center;
+}
+
+#email-form{
+	display:none;
+	width:500px;
+	margin:auto;
+}
+
+#contact-form label{
+	display:block;
+	clear:both;
+	color:#aaa;
+	font-family: 'Great vibes', Helvetica, sans-serif;
+	font-size:26px;
+	margin-bottom:10px;
+	margin-top:15px;
+}
+
+#contact-form input[type=text], #contact-form textarea{
+	border-radius:5px;
+	outline:none;
+	border:1px solid #aaa;
+	-moz-border-radius: 5px;
+	-webkit-border-radius:5px;
+	padding:5px;
+	font-family: "Arial", sans-serif;
+	width:500px;
+	font-size:14px;
+}
+
+#contact-form textarea{
+	margin-bottom:30px;
+	resize:none;
+}
+
+
+#email-submit {
+	display:block;
+	clear:both;
+	font-size:32px;
+	font-family: 'Great vibes', Helvetica, sans-serif;
+	border:1px solid #aaa;
+	padding:2px 20px 2px 20px;
+	color:#aaa;
+	margin:auto;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	background-color:#fff;
+	margin-bottom:40px;
+}
+
+#email-submit:hover{
+	cursor:pointer;
+	background-color:#bcbcbc;
+	color:#fff;
+}
+
+#email-error{
+	color:#dd0000;
+}
+
+#email-success{
+	color: #127a12;
+	font-family:"Helvetica", sans-serif;
+	font-size:16px;
+	margin-top:10px;
+}
+
+
+
+
+
+
